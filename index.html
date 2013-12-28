@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RedactorJS & FontAwesome</title>
+
+	<link rel="stylesheet" type="text/css" href="http://imperavi.com/js/redactor/redactor.css">
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="awesome/redactor-awesome.css">
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="http://imperavi.com/js/redactor/redactor.js"></script>
+	<script src="redactor-plugins/fontsize.js"></script>
+	<script src="redactor-plugins/fontcolor.js"></script>
+	<script src="awesome/redactor-awesome.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$('textarea').redactor({
+            	focus: true,
+				plugins: ['fontcolor', 'awesome', 'fontsize']
+			});
+		});
+	</script>
+</head>
+<body>
+	<textarea></textarea>
+</body>
+</html>

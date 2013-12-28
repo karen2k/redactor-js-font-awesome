@@ -1,0 +1,34 @@
+.redactor_btn_awesome{
+	font-size:15px !important;
+	display:inline-block !important;
+	line-height:25px !important;
+	text-indent:0 !important;
+	color:#000;
+	text-align:center;
+	background-image:none !important;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+.redactor_dropdown_search{
+	cursor:default !important;
+	padding:0 !important;
+}
+.redactor_dropdown_search input{
+	width:94%;
+	height:21px;
+	padding:0 3%;
+	margin:0;
+	border:1px solid grey;
+	outline:none;
+}
+.redactor_dropdown_box_awesome .fa span{
+	padding:0 0 0 10px;
+}
+.redactor_dropdown_box_awesome a{
+	display:none;
+}
+.redactor_dropdown_search{
+	display:block !important;
+}
+.redactor_dropdown_box_awesome a.visible{
+	display:block !important;
+}
