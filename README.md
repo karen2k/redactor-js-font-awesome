@@ -1,0 +1,2 @@
+redactor-js-font-awesome
+========================
