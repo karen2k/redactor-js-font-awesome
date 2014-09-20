@@ -45,9 +45,8 @@ RedactorPlugins.awesome = {
 			dropdown['s' + i] = { title: '<i class="fa fa-' + s + '" id="redactor-fa-' + s + '"><span>' + s + '</span></i>', callback: function() { that.insertAwesome(s); } };
 		});
 
-		this.buttonAddSeparator();
 		this.buttonAdd('awesome', 'Font Awesome', false, dropdown);
-		this.buttonGet('awesome').addClass('fa fa-flag-o');
+	        this.buttonAwesome('awesome', 'fa-flag-o');
 
 		this.searchInput = $('#redactor_awesome_search');
 	},
