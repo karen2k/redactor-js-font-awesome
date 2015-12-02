@@ -1,0 +1,30 @@
+{
+  "name": "redactor-js-font-awesome",
+  "version": "1.0.0",
+  "description": "Awesome icons font for awesome Redactor.js",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "fontawesome-list": "^0.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-font-awesome-list": "^1.0.0",
+    "grunt-growl": "^0.1.5",
+    "grunt-string-replace": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpdevries/redactor-js-font-awesome.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpdevries/redactor-js-font-awesome/issues"
+  },
+  "homepage": "https://github.com/jpdevries/redactor-js-font-awesome#readme"
+}

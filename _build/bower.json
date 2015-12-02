@@ -1,0 +1,30 @@
+{
+  "name": "redactor-js-font-awesome",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jpdevries/redactor-js-font-awesome",
+  "description": "Awesome icons font for awesome Redactor.js",
+  "authors": [
+    "JP DeVries <johnpaul.devries@gmail.com>"
+  ],
+  "main": "index.html",
+  "keywords": [
+    "redactor",
+    "font-awesome"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.5.0"
+  },
+  "exportsOverride": {
+    "font-awesome": {
+      "scss": ["scss"]
+    }
+  }
+}
